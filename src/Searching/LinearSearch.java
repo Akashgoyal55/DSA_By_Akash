@@ -1,4 +1,12 @@
 package Searching;
+/*
+Linear search is an algorithm use to find a target element in a array
+It starts a counter from i=0, and check if the current element is the target element
+In linear search we iterate through each element and here the worst case is when the target element is at the end
+So we have to make n comparisons, that why time complexity = O(N)
+Space complexity - O(1) The space complexity is constant because the algorithm only uses a few extra variables (i, arr, and target)
+and does not require additional data structures such as arrays or lists that grow with the input size.
+ */
 
 public class LinearSearch {
     static int linearSearch(int[] arr, int target){

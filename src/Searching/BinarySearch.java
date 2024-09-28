@@ -1,4 +1,10 @@
 package Searching;
+/*
+ - Binary Search algorithm is a way of searching for a target element
+ - Binary search is only applies on sorted array
+ - Here we take two variables 'start' and 'end' and keep on dividing into halves, which make it
+ - time complexity = O(log n)
+ */
 
 public class BinarySearch {
     static int binarySort(int[] arr, int target){
